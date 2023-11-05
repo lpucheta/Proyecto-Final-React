@@ -3,7 +3,8 @@ import React from "react";
 function MetrosCuadrados({metrosCuadrados, setMetrosCuadrados}){
 
     return(
-        <label>
+        <div className="component-container">
+        <label className="component-label">
             Metros Cuadrados:
             <input 
             type="number" 
@@ -12,7 +13,7 @@ function MetrosCuadrados({metrosCuadrados, setMetrosCuadrados}){
             onChange={(e) => setMetrosCuadrados(parseInt(e.target.value,10))}
             />
         </label>
-
+        </div>
     );
 }
 

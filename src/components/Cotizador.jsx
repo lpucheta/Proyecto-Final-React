@@ -3,6 +3,7 @@ import Propiedad from "./Propiedad";
 import Ubicacion from "./Ubicacion";
 import MetrosCuadrados from "./MetrosCuadrados";
 import opciones from "./valores.json";
+import "./Cotizador.css";
 
 
 function Cotizador(props) {
@@ -56,10 +57,10 @@ function Cotizador(props) {
   };
   
   return (
-    <div>
+    <div className="container">
       <button onClick={calcularSeguro}>Cotizar</button>
       <button onClick={limpiarCotizacion}>Limpiar Cotización</button>
-      <label>Resultado del seguro: ${resultadoSeguro}</label>
+      <label className="resultado">Resultado del seguro: ${resultadoSeguro}</label>
       <button onClick={guardarCotizacionEnHistorial}>Guardar en Historial</button>
     </div>
   );

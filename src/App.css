@@ -1,0 +1,37 @@
+.container {
+   
+    background-color: #ccc5cc;
+  }
+  
+   h1 {
+    text-align: center;
+    color: #333;
+    margin: 20px 0; 
+  }
+  
+  
+  .container select {
+    width: 300px; 
+  }
+  
+  .container input[type="number"] {
+    width: 300px; 
+  }
+  
+  .container button {
+    
+    padding: 10px 20px;
+    background-color: white;
+    color: #572364 ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover{
+    background-color: violet;
+  }
+
+  link{
+    font-size: 20px;
+  }

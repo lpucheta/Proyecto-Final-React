@@ -19,6 +19,7 @@ function App() {
   return (
     <div className="App">
       <h1>Seguros del Hogar🏠</h1>
+      <div className='container'>
       <Propiedad tipoVivienda={tipoVivienda} setTipoVivienda={setTipoVivienda} />
       <Ubicacion ciudad={ciudad} setCiudad={setCiudad} />
       <MetrosCuadrados metrosCuadrados={metrosCuadrados} setMetrosCuadrados={setMetrosCuadrados} />
@@ -27,7 +28,8 @@ function App() {
       <Routes>
         <Route path='/Historial' element={<Historial />}/>
       </Routes>
-      <Link to='/Historial'>Ver Historial</Link>
+      <Link to='/Historial' title='Ver Historial'>📝</Link>
+    </div>
     </div>
   );
 }

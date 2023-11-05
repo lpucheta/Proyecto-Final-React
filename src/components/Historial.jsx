@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import "./Historial.css";
 
 function Historial() {
   const [cotizaciones, setCotizaciones] = useState([]);
@@ -35,7 +36,7 @@ function Historial() {
           ))}
         </tbody>
       </table>
-      <Link to='/'>Volver al Inicio</Link>
+      <Link to='/cotizador'>Ocultar Historial</Link>
     </div>
   );
 }
