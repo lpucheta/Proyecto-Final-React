@@ -1,0 +1,14 @@
+{
+    "tiposVivienda": [
+      {"id": "casa", "nombre": "Casa", "valor": 100},
+      {"id": "departamento", "nombre": "Departamento", "valor": 50},
+      {"id": "barriop", "nombre": "Barrio Privado", "valor": 200},
+      {"id": "oficina", "nombre": "Oficina", "valor": 180}
+    ],
+    "ciudades": [
+      {"id": "caba", "nombre": "CABA", "valor": 180},
+      {"id": "provincia", "nombre": "Provincia", "valor": 120},
+      {"id": "interior", "nombre": "Interior", "valor": 140}
+    ]
+  }
+  
