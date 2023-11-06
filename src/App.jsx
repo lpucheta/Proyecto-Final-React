@@ -10,8 +10,8 @@ import {Link} from "react-router-dom";
 
 
 function App() {
-  const [tipoVivienda, setTipoVivienda] = useState('casa');
-  const [ciudad, setCiudad] = useState('caba');
+  const [tipoVivienda, setTipoVivienda] = useState('');
+  const [ciudad, setCiudad] = useState('');
   const [metrosCuadrados, setMetrosCuadrados] = useState(20);
 
  
@@ -28,7 +28,9 @@ function App() {
       <Routes>
         <Route path='/Historial' element={<Historial />}/>
       </Routes>
-      <Link to='/Historial' title='Ver Historial'>📝</Link>
+      <div className='link-container'>
+      <Link to='/Historial' title='Ver Historial' className='link-historial'>📝</Link>
+      </div>
     </div>
     </div>
   );

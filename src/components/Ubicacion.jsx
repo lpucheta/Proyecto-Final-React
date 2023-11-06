@@ -7,6 +7,7 @@ function Ubicacion({ciudad, setCiudad}){
     <label className="component-label">
         Ciudad:
         <select value={ciudad} onChange={(e) => setCiudad(e.target.value)} required>
+            <option value="">Seleccione una opcion</option>
             <option value="caba">CABA</option>
             <option value="provincia">Gran Buenos Aires</option>
             <option value="interior">Interior</option>

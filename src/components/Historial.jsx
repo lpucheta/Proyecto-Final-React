@@ -36,7 +36,7 @@ function Historial() {
           ))}
         </tbody>
       </table>
-      <Link to='/cotizador'>Ocultar Historial</Link>
+      <Link to='/cotizador' className="link-ocultar">Ocultar Historial</Link>
     </div>
   );
 }

@@ -9,6 +9,7 @@ function Propiedad({tipoVivienda, setTipoVivienda}){
        <label className="component-label">
         Tipo de Vivienda:
         <select value={tipoVivienda} onChange={(e) =>setTipoVivienda(e.target.value)} required>
+            <option value="">Seleccione una opcion</option>
             <option value="casa">Casa</option>
             <option value="departamento">Departamento</option>
             <option value="barriop">Barrio Privado</option>

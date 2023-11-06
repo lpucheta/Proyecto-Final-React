@@ -34,6 +34,12 @@ table {
     background-color: #0056b3;
   }
   
-  link{
-    font-size: 10px;
+.link-ocultar{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+  }
+
+  .link-ocultar:hover{
+    color: violet;
   }

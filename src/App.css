@@ -1,5 +1,4 @@
 .container {
-   
     background-color: #ccc5cc;
   }
   
@@ -8,7 +7,6 @@
     color: #333;
     margin: 20px 0; 
   }
-  
   
   .container select {
     width: 300px; 
@@ -32,6 +30,7 @@
     background-color: violet;
   }
 
-  link{
-    font-size: 20px;
+.link-historial{
+    font-size: 25px;
+    text-decoration: none;
   }
